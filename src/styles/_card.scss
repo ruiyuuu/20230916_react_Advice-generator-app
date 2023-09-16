@@ -1,0 +1,45 @@
+.card{
+  width: 532px;
+  height: fit-content;
+  background-color: #313A49;
+  padding: 40px 40px 56px;
+  position: relative;
+  left: calc(( 100vw - 532px) /2);
+  border-radius: 24px;
+  margin: 40px;
+  small{
+    color: #53FFA9;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    text-align: center;
+  }
+  h4{
+    color: #fff;
+    text-align: center;
+  }
+  p{
+    color: #CEE2E9;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+  button{
+    height: 64px;
+    width: 64px;
+    background: #53FFA9;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -32px;
+    left: calc((532px - 64px)/2);
+    transition: all 0.3s ease;
+    &:hover{
+      box-shadow: 0px 0px 68px 0px rgba(100, 255, 177, 0.90);
+    }
+  }
+}
