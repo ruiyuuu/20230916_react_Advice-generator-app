@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Home from '../view/Home'
-// import NoFound from '../view/NoFound'
+import NoFound from '../view/NoFound'
 
 export default function AppRouter() {
   return (
@@ -10,9 +10,9 @@ export default function AppRouter() {
         <Route exact path="/" >
           <Home />
         </Route>
-        {/* <Route path="*" >
+        <Route path="*" >
           <NoFound />
-        </Route> */}
+        </Route>
       </Switch>
     </Router>
   )
