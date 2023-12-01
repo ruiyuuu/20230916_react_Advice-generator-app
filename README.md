@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+DEMO  https://ruiyuuu.github.io/20230916_react_Advice-generator-app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
